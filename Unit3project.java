@@ -97,6 +97,46 @@ if (numAnswer15 != correctWord){
   System.out.println("Wrong choice! Try again! ");
 
 }
-System.out.println("Time for your third hinth. It is something people usually eat everyday. ");
+System.out.println("Time for your last hint. It is something people usually eat everyday and its a fruit. ");
+
+String numAnswer16 = input.nextLine();
+if (numAnswer16 != correctWord){
+  System.out.println("Wrong choice! Try again!");
+}
+String numAnswer17 = input.nextLine();
+if (numAnswer17 != correctWord){
+  System.out.println("Wrong choice! Try again!");
+}
+String numAnswer18 = input.nextLine();
+if (numAnswer18 != correctWord){
+  System.out.println("Wrong choice! Try again!");
+}
+String numAnswer19 = input.nextLine();
+if (numAnswer19 != correctWord){
+  System.out.println("Wrong choice! Try again!");
+}
+String numAnswer20 = input.nextLine();
+if (numAnswer20 != correctWord){
+  System.out.println("Wrong choice! That's game! \n The word was Pineapple! Good luck next time");
+}
+else if (numAnswer20 == "apple" || numAnswer20 == "pine"){
+  System.out.println("You're really close! Here I'll give you one more chance!");
+  String finalAnswer = input.nextLine();
+  if (finalAnswer == correctWord){
+    System.out.println("You got it right!");
+  }
+  else {
+    System.out.println("Ahh unfortunately its the wrong answer. Good effort though.");
+  }
+    
+
+  
+}
+if (numAnswer == correctWord || numAnswer2 == correctWord || numAnswer3 == correctWord || numAnswer4 == correctWord || numAnswer5 == correctWord || numAnswer6 == correctWord 
+|| numAnswer7 == correctWord || numAnswer8 == correctWord || numAnswer9 == correctWord || numAnswer10 == correctWord || numAnswer11 == correctWord || numAnswer12 == correctWord 
+|| numAnswer13 == correctWord || numAnswer14 == correctWord || numAnswer15 == correctWord || numAnswer16 == correctWord || numAnswer17 == correctWord || numAnswer18 == correctWord 
+|| numAnswer19 == correctWord || numAnswer20 == correctWord){
+  System.out.println("You got it right! Good game. ");
+}
 }
 }
